@@ -50,8 +50,15 @@ if __name__ == '__main__':
 
   cal.verif_calibration(imageBB)
 
-  #cal.apply_to_essay(save_tif) #uncomment only when you are sure, it's a long function.
-  #cal.apply_to_essay_mean(save_tif) #uncomment only when you are sure, it's a long function.
+  #cal.apply_to_essay(save_tif,video_directory+"Dep-0.ptw") #uncomment only when you are sure, it's a long function.
+  
+  #for j in range(0:18):
+    #cal.apply_to_essay_mean(save_tif,video_directory+str(j)+".ptw",j) #uncomment only when you are sure, it's a long function.
+
+
+
+
+
 
 
 
