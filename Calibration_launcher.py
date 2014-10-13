@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import Calibration_Class_v2_1 as Cal
+import InfraRed as IR
 import GetPTW as PTW
 import skimage.io as io
 import numpy as np
@@ -32,7 +32,7 @@ camera="jade" # the correct parameters are "jade" or "titanium"
 if __name__ == '__main__':
 
 #Creating a calibration class:
-  cal=Cal.Calibration(sigma,BB_Emissivity,directory,result_directory,video_directory,Tmin,Tmax,Tstep,polynomial_degree,bad_pix_critere,area_size,NUC,extension,camera)
+  cal=IR.Calibration(sigma,BB_Emissivity,directory,result_directory,video_directory,Tmin,Tmax,Tstep,polynomial_degree,bad_pix_critere,area_size,NUC,extension,camera)
 
 #Calling the calibration class functions:
 
